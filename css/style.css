@@ -1,0 +1,39 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+header{
+
+}
+header .logo{
+    display: block;
+    height: 150px;
+}
+nav{
+    background-color: #314086;
+}
+nav a{
+    color: #88c6e6;
+    padding: 20px 15px;
+    display: inline-block;
+    float: left;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+    text-decoration: none;
+}
+nav a.last{
+    background-color:#f18619;
+    float: right;
+    display: block;
+}
+nav a:hover{
+    color: #ad642e;
+}
+.last:hover{
+    color: #584137;
+}
+.container{
+    width: 80%;
+}
