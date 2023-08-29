@@ -2,7 +2,7 @@
     margin: 0 auto;
     padding: 0;
     box-sizing: border-box;
-    overflow: hidden;
+   /* overflow: hidden;*/
 }
 header{
 
@@ -13,6 +13,7 @@ header .logo{
 }
 nav{
     background-color: #314086;
+    overflow: hidden;
 }
 nav a{
     color: #88c6e6;
@@ -36,4 +37,84 @@ nav a:hover{
 }
 .container{
     width: 80%;
+}
+#banner{
+    background-color: #88c6e6;
+    padding: 30px 0;
+}
+#banner .container{
+    display: flex;
+}
+#banner img{
+    height: 400px;
+    width: 100%;
+}
+.info{
+    padding: 40px;
+}
+.info h1{
+    color: #584137;
+    font-size: 38px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.info h1 span{
+    display: inline-block;
+    padding-bottom: 5px;
+    border-bottom: 1px solid black;
+    font-size: 20px;
+    color: ;
+}
+.info p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+    padding: 20px 0;
+    color: #2c2c61;
+}
+.info a{
+    display: inline-block;
+    text-decoration: none;
+    color: red;
+    background-color: #868fa6;
+    padding: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+}
+.info a:hover{
+    color: #584137;
+    background-color: #dee2e4;
+}
+#feature{
+    margin: 30px 0;
+}
+#feature .container{
+    display: flex;
+}
+#feature .box{
+    width: 24%;
+    position: relative;
+}
+.box img{
+    width: 100%;
+    height: 260px;
+    display: block;
+}
+.box .info1{
+    background-color:rgb(62, 7, 7);
+    padding: 10px 0;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.info1 h3{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 23px;
+    padding: 0 10px;
+
+} 
+.info1 a{
+    color: #f79267;
+    text-decoration: none;
+}
+.info1 a:hover{
+    color:#314086;
 }
